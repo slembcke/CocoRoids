@@ -167,6 +167,9 @@ WrapAround(CGPoint pos, CGSize size)
 
 -(void)fireBullet
 {
+	// Don't fire bullets if the ship is destroyed.
+	if(_ship == nil) return;
+	
 	// This is sort of a fancy math way to figure out where to fire the bullet from.
 	// You could figure this out with more code, but I wanted to have fun with some maths.
 	// This gets the transform of one of the "gunports" that I marked in the CCB file with a special node.
@@ -212,6 +215,29 @@ WrapAround(CGPoint pos, CGSize size)
 	[[OALSimpleAudio sharedInstance] playEffect:@"Laser.wav" volume:1.0 pitch:pitch pan:0.0 loop:NO];
 }
 
+// A static string used as a group identifier for the debris.
+static NSString *debrisIdentifier = @"debris";
+
+// Recursive helper function to set up physics on the debris child nodes.
+static void
+InitDebris(CCNode *node, CGPoint velocity)
+{
+	// If the node has a body, set some properties.
+	CCPhysicsBody *body = node.physicsBody;
+	if(body){
+		// Bodies with the same group reference don't collide.
+		// Any type of object will do. It's the object reference that is important.
+		body.collisionGroup = debrisIdentifier;
+		
+		// Copy the velocity onto the body + a little random.
+		body.velocity = ccpAdd(velocity, ccpMult(CCRANDOM_IN_UNIT_CIRCLE(), 10.0));
+		body.angularVelocity = 2.0*CCRANDOM_MINUS1_1();
+	}
+	
+	// Recurse on the children.
+	for(CCNode *child in node.children) InitDebris(child, velocity);
+}
+
 //MARK CCResponder methods
 
 -(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
@@ -226,14 +252,37 @@ WrapAround(CGPoint pos, CGSize size)
 -(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair ship:(CCNode *)ship asteroid:(Asteroid *)asteroid
 {
 	if([_ship takeDamage]){
-		// Ship was destroyed. Go back to the splash screen.
-		[[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"MainScene"]];		
+		//The ship was destroyed!
+		
+		[_ship removeFromParent];
+		
+		CCNode *debris = [CCBReader load:@"CrashedShip"];
+		debris.position = _ship.position;
+		debris.rotation = _ship.rotation;
+		InitDebris(debris, _ship.physicsBody.velocity);
+		[_physics addChild:debris];
+		
+		// Add a lame particle effect.
+		CCNode *explosion = [CCBReader load:@"Explosion"];
+		explosion.position = _ship.position;
+		[self addChild:explosion];
+		
+		_ship = nil;
+		
+		[self scheduleBlock:^(CCTimer *timer){
+			// Go back to the menu after a short delay.
+			[[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"MainScene"]];
+		} delay:3.0];
+		
+		// Don't process the collision so the debris will get a chance to collide with the asteroid.
+		return NO;
 	} else {
+		// The ship still had it's shield, destroy the asteroid instead.
 		[self destroyAsteroid:asteroid];
+		
+		// Process the collision normally so the ship will bounce off the asteroid.
+		return YES;
 	}
-	
-	// Process the collision between the ship and the asteroid.
-	return YES;
 }
 
 -(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair bullet:(Bullet *)bullet asteroid:(Asteroid *)asteroid
