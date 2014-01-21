@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>ShipParts/Arm1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{33, 174}, {20, 9}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 9}}</string>
+			<key>sourceSize</key>
+			<string>{20, 9}</string>
+		</dict>
+		<key>ShipParts/Arm2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{124, 96}, {19, 15}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {19, 15}}</string>
+			<key>sourceSize</key>
+			<string>{19, 15}</string>
+		</dict>
+		<key>ShipParts/Arm3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{33, 196}, {20, 8}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 8}}</string>
+			<key>sourceSize</key>
+			<string>{20, 8}</string>
+		</dict>
+		<key>ShipParts/Arm4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{124, 117}, {14, 14}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {14, 14}}</string>
+			<key>sourceSize</key>
+			<string>{14, 14}</string>
+		</dict>
+		<key>ShipParts/cockpit1Green.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{220, 75}, {23, 37}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {23, 37}}</string>
+			<key>sourceSize</key>
+			<string>{23, 37}</string>
+		</dict>
+		<key>ShipParts/cockpit1Grey.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{52, 108}, {23, 37}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {23, 37}}</string>
+			<key>sourceSize</key>
+			<string>{23, 37}</string>
+		</dict>
+		<key>ShipParts/cockpit1Red.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{52, 69}, {23, 37}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {23, 37}}</string>
+			<key>sourceSize</key>
+			<string>{23, 37}</string>
+		</dict>
+		<key>ShipParts/cockpit1Yellow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{219, 100}, {23, 37}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {23, 37}}</string>
+			<key>sourceSize</key>
+			<string>{23, 37}</string>
+		</dict>
+		<key>ShipParts/cockpit2Green.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{77, 161}, {23, 33}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {23, 33}}</string>
+			<key>sourceSize</key>
+			<string>{23, 33}</string>
+		</dict>
+		<key>ShipParts/cockpit2Grey.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{77, 136}, {23, 33}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {23, 33}}</string>
+			<key>sourceSize</key>
+			<string>{23, 33}</string>
+		</dict>
+		<key>ShipParts/cockpit2Red.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{52, 147}, {23, 33}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {23, 33}}</string>
+			<key>sourceSize</key>
+			<string>{23, 33}</string>
+		</dict>
+		<key>ShipParts/cockpit2Yellow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{139, 158}, {23, 33}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {23, 33}}</string>
+			<key>sourceSize</key>
+			<string>{23, 33}</string>
+		</dict>
+		<key>ShipParts/cockpit3Green.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{76, 186}, {29, 30}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {29, 30}}</string>
+			<key>sourceSize</key>
+			<string>{29, 30}</string>
+		</dict>
+		<key>ShipParts/cockpit3Grey.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 199}, {29, 30}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {29, 30}}</string>
+			<key>sourceSize</key>
+			<string>{29, 30}</string>
+		</dict>
+		<key>ShipParts/cockpit3Red.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 168}, {29, 30}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {29, 30}}</string>
+			<key>sourceSize</key>
+			<string>{29, 30}</string>
+		</dict>
+		<key>ShipParts/cockpit3Yellow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{44, 182}, {29, 30}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {29, 30}}</string>
+			<key>sourceSize</key>
+			<string>{29, 30}</string>
+		</dict>
+		<key>ShipParts/cockpit4Green.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{197, 95}, {20, 28}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 28}}</string>
+			<key>sourceSize</key>
+			<string>{20, 28}</string>
+		</dict>
+		<key>ShipParts/cockpit4Grey.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{358, 37}, {20, 28}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 28}}</string>
+			<key>sourceSize</key>
+			<string>{20, 28}</string>
+		</dict>
+		<key>ShipParts/cockpit4Red.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 230}, {20, 28}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 28}}</string>
+			<key>sourceSize</key>
+			<string>{20, 28}</string>
+		</dict>
+		<key>ShipParts/cockpit4Yellow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{112, 166}, {20, 28}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 28}}</string>
+			<key>sourceSize</key>
+			<string>{20, 28}</string>
+		</dict>
+		<key>ShipParts/cockpit5Green.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{388, 37}, {20, 20}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 20}}</string>
+			<key>sourceSize</key>
+			<string>{20, 20}</string>
+		</dict>
+		<key>ShipParts/cockpit5Grey.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{432, 50}, {20, 20}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 20}}</string>
+			<key>sourceSize</key>
+			<string>{20, 20}</string>
+		</dict>
+		<key>ShipParts/cockpit5Red.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{454, 50}, {20, 20}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 20}}</string>
+			<key>sourceSize</key>
+			<string>{20, 20}</string>
+		</dict>
+		<key>ShipParts/cockpit5Yellow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{410, 37}, {20, 20}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 20}}</string>
+			<key>sourceSize</key>
+			<string>{20, 20}</string>
+		</dict>
+		<key>ShipParts/enemyShip.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{220, 1}, {49, 25}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {49, 25}}</string>
+			<key>sourceSize</key>
+			<string>{49, 25}</string>
+		</dict>
+		<key>ShipParts/enemyUFO.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{220, 28}, {45, 45}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {45, 45}}</string>
+			<key>sourceSize</key>
+			<string>{45, 45}</string>
+		</dict>
+		<key>ShipParts/jetEngine1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{35, 154}, {18, 10}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {18, 10}}</string>
+			<key>sourceSize</key>
+			<string>{18, 10}</string>
+		</dict>
+		<key>ShipParts/jetEngine2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{124, 133}, {20, 13}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 13}}</string>
+			<key>sourceSize</key>
+			<string>{20, 13}</string>
+		</dict>
+		<key>ShipParts/jetEngine3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{306, 45}, {13, 11}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {13, 11}}</string>
+			<key>sourceSize</key>
+			<string>{13, 11}</string>
+		</dict>
+		<key>ShipParts/jetEngine4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{197, 58}, {23, 21}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {23, 21}}</string>
+			<key>sourceSize</key>
+			<string>{23, 21}</string>
+		</dict>
+		<key>ShipParts/jetFlame1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{141, 78}, {7, 18}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {7, 18}}</string>
+			<key>sourceSize</key>
+			<string>{7, 18}</string>
+		</dict>
+		<key>ShipParts/jetFlame2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{178, 113}, {7, 17}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {7, 17}}</string>
+			<key>sourceSize</key>
+			<string>{7, 17}</string>
+		</dict>
+		<key>ShipParts/jetFlame3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{259, 75}, {20, 5}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 5}}</string>
+			<key>sourceSize</key>
+			<string>{20, 5}</string>
+		</dict>
+		<key>ShipParts/laserGreen.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{259, 97}, {16, 4}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {16, 4}}</string>
+			<key>sourceSize</key>
+			<string>{16, 4}</string>
+		</dict>
+		<key>ShipParts/laserGreenShot.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{484, 25}, {28, 27}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {28, 27}}</string>
+			<key>sourceSize</key>
+			<string>{28, 27}</string>
+		</dict>
+		<key>ShipParts/laserRed.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{112, 136}, {16, 4}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {16, 4}}</string>
+			<key>sourceSize</key>
+			<string>{16, 4}</string>
+		</dict>
+		<key>ShipParts/laserRedShot.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{43, 213}, {28, 27}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {28, 27}}</string>
+			<key>sourceSize</key>
+			<string>{28, 27}</string>
+		</dict>
+		<key>ShipParts/life.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{178, 98}, {17, 13}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {17, 13}}</string>
+			<key>sourceSize</key>
+			<string>{17, 13}</string>
+		</dict>
+		<key>ShipParts/meteorBig.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{150, 1}, {68, 55}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {68, 55}}</string>
+			<key>sourceSize</key>
+			<string>{68, 55}</string>
+		</dict>
+		<key>ShipParts/meteorSmall.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{490, 1}, {22, 21}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {22, 21}}</string>
+			<key>sourceSize</key>
+			<string>{22, 21}</string>
+		</dict>
+		<key>ShipParts/player.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 62}, {49, 37}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {49, 37}}</string>
+			<key>sourceSize</key>
+			<string>{49, 37}</string>
+		</dict>
+		<key>ShipParts/playerDamaged.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 101}, {49, 37}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {49, 37}}</string>
+			<key>sourceSize</key>
+			<string>{49, 37}</string>
+		</dict>
+		<key>ShipParts/playerLeft.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{77, 96}, {45, 38}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {45, 38}}</string>
+			<key>sourceSize</key>
+			<string>{45, 38}</string>
+		</dict>
+		<key>ShipParts/playerRight.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{150, 58}, {45, 38}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {45, 38}}</string>
+			<key>sourceSize</key>
+			<string>{45, 38}</string>
+		</dict>
+		<key>ShipParts/sampleShip1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{78, 43}, {51, 61}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {51, 61}}</string>
+			<key>sourceSize</key>
+			<string>{51, 61}</string>
+		</dict>
+		<key>ShipParts/sampleShip2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{271, 1}, {46, 42}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {46, 42}}</string>
+			<key>sourceSize</key>
+			<string>{46, 42}</string>
+		</dict>
+		<key>ShipParts/sampleShip3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{78, 1}, {70, 40}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 40}}</string>
+			<key>sourceSize</key>
+			<string>{70, 40}</string>
+		</dict>
+		<key>ShipParts/scratch1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{44, 140}, {8, 6}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {8, 6}}</string>
+			<key>sourceSize</key>
+			<string>{8, 6}</string>
+		</dict>
+		<key>ShipParts/scratch2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{306, 60}, {11, 11}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {11, 11}}</string>
+			<key>sourceSize</key>
+			<string>{11, 11}</string>
+		</dict>
+		<key>ShipParts/shield.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {75, 59}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {75, 59}}</string>
+			<key>sourceSize</key>
+			<string>{75, 59}</string>
+		</dict>
+		<key>ShipParts/tube1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{141, 43}, {7, 33}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {7, 33}}</string>
+			<key>sourceSize</key>
+			<string>{7, 33}</string>
+		</dict>
+		<key>ShipParts/tube2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 154}, {12, 32}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {12, 32}}</string>
+			<key>sourceSize</key>
+			<string>{12, 32}</string>
+		</dict>
+		<key>ShipParts/weapon1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{112, 155}, {9, 25}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {9, 25}}</string>
+			<key>sourceSize</key>
+			<string>{9, 25}</string>
+		</dict>
+		<key>ShipParts/weapon2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{52, 62}, {5, 24}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {5, 24}}</string>
+			<key>sourceSize</key>
+			<string>{5, 24}</string>
+		</dict>
+		<key>ShipParts/weapon3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{197, 83}, {10, 21}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {10, 21}}</string>
+			<key>sourceSize</key>
+			<string>{10, 21}</string>
+		</dict>
+		<key>ShipParts/wing1Green.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 140}, {12, 41}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {12, 41}}</string>
+			<key>sourceSize</key>
+			<string>{12, 41}</string>
+		</dict>
+		<key>ShipParts/wing1Grey.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{405, 1}, {12, 41}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {12, 41}}</string>
+			<key>sourceSize</key>
+			<string>{12, 41}</string>
+		</dict>
+		<key>ShipParts/wing1Red.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{362, 1}, {12, 41}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {12, 41}}</string>
+			<key>sourceSize</key>
+			<string>{12, 41}</string>
+		</dict>
+		<key>ShipParts/wing1Yellow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{319, 1}, {12, 41}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {12, 41}}</string>
+			<key>sourceSize</key>
+			<string>{12, 41}</string>
+		</dict>
+		<key>ShipParts/wing2Green.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{448, 1}, {20, 40}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 40}}</string>
+			<key>sourceSize</key>
+			<string>{20, 40}</string>
+		</dict>
+		<key>ShipParts/wing2Grey.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{319, 15}, {20, 40}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 40}}</string>
+			<key>sourceSize</key>
+			<string>{20, 40}</string>
+		</dict>
+		<key>ShipParts/wing2Red.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{361, 15}, {20, 40}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 40}}</string>
+			<key>sourceSize</key>
+			<string>{20, 40}</string>
+		</dict>
+		<key>ShipParts/wing2Yellow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{403, 15}, {20, 40}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {20, 40}}</string>
+			<key>sourceSize</key>
+			<string>{20, 40}</string>
+		</dict>
+		<key>ShipParts/wing3Green.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{267, 45}, {25, 37}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {25, 37}}</string>
+			<key>sourceSize</key>
+			<string>{25, 37}</string>
+		</dict>
+		<key>ShipParts/wing3Grey.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{445, 23}, {25, 37}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {25, 37}}</string>
+			<key>sourceSize</key>
+			<string>{25, 37}</string>
+		</dict>
+		<key>ShipParts/wing3Red.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{267, 72}, {25, 37}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {25, 37}}</string>
+			<key>sourceSize</key>
+			<string>{25, 37}</string>
+		</dict>
+		<key>ShipParts/wing3Yellow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{319, 37}, {25, 37}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {25, 37}}</string>
+			<key>sourceSize</key>
+			<string>{25, 37}</string>
+		</dict>
+		<key>ShipParts/wing4Green.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{141, 98}, {18, 35}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {18, 35}}</string>
+			<key>sourceSize</key>
+			<string>{18, 35}</string>
+		</dict>
+		<key>ShipParts/wing4Grey.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{177, 122}, {18, 35}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {18, 35}}</string>
+			<key>sourceSize</key>
+			<string>{18, 35}</string>
+		</dict>
+		<key>ShipParts/wing4Red.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{139, 138}, {18, 35}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {18, 35}}</string>
+			<key>sourceSize</key>
+			<string>{18, 35}</string>
+		</dict>
+		<key>ShipParts/wing4Yellow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{140, 118}, {18, 35}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {18, 35}}</string>
+			<key>sourceSize</key>
+			<string>{18, 35}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{512, 512}</string>
+		<key>textureFileName</key>
+		<string>ShipParts.png</string>
+	</dict>
+</dict>
+</plist>
