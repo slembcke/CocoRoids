@@ -32,7 +32,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Configure CCFileUtils to work with SpriteBuilder
+		// Start the background music playing.
+		[[OALSimpleAudio sharedInstance] playBg:@"BoxCat_Games-eCommerce.aac" loop:YES];
+		
+		// Configure CCFileUtils to work with SpriteBuilder
     [CCBReader configureCCFileUtils];
     
     // Configure Cocos2d with the options set in SpriteBuilder

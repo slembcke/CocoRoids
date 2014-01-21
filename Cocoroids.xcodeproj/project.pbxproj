@@ -77,6 +77,7 @@
 		D2E65CA918626890007D0B1F /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = D2E65C9A18626890007D0B1F /* vec4.c */; };
 		D3B05DDF188E722A00613617 /* Crash.wav in Resources */ = {isa = PBXBuildFile; fileRef = D3B05DDD188E722A00613617 /* Crash.wav */; };
 		D3B05DE0188E722A00613617 /* Shield.wav in Resources */ = {isa = PBXBuildFile; fileRef = D3B05DDE188E722A00613617 /* Shield.wav */; };
+		D3B05DE3188E7F9C00613617 /* BoxCat_Games-eCommerce.aac in Resources */ = {isa = PBXBuildFile; fileRef = D3B05DE2188E7F9C00613617 /* BoxCat_Games-eCommerce.aac */; };
 		D3DD0A32188CC391000670BE /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DD0A31188CC391000670BE /* GameScene.m */; };
 		D3DD0A37188CC3CC000670BE /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DD0A36188CC3CC000670BE /* Ship.m */; };
 		D3DD0A3A188CC663000670BE /* Asteroid.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DD0A39188CC663000670BE /* Asteroid.m */; };
@@ -221,6 +222,7 @@
 		D2E65C9A18626890007D0B1F /* vec4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vec4.c; sourceTree = "<group>"; };
 		D3B05DDD188E722A00613617 /* Crash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Crash.wav; sourceTree = "<group>"; };
 		D3B05DDE188E722A00613617 /* Shield.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Shield.wav; sourceTree = "<group>"; };
+		D3B05DE2188E7F9C00613617 /* BoxCat_Games-eCommerce.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BoxCat_Games-eCommerce.aac"; sourceTree = "<group>"; };
 		D3DD0A30188CC391000670BE /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = Source/GameScene.h; sourceTree = "<group>"; };
 		D3DD0A31188CC391000670BE /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameScene.m; path = Source/GameScene.m; sourceTree = "<group>"; };
 		D3DD0A35188CC3CC000670BE /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ship.h; path = Source/Ship.h; sourceTree = "<group>"; };
@@ -353,6 +355,7 @@
 		B77F1B4617B978D7009739AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D3B05DE2188E7F9C00613617 /* BoxCat_Games-eCommerce.aac */,
 				D3B05DDD188E722A00613617 /* Crash.wav */,
 				D3B05DDE188E722A00613617 /* Shield.wav */,
 				D3DD0A47188E079E000670BE /* Engine.wav */,
@@ -617,6 +620,7 @@
 				B737897D180762440076A88C /* Icon.png in Resources */,
 				B7378977180762440076A88C /* Default.png in Resources */,
 				D3DD0A42188E0475000670BE /* Laser.wav in Resources */,
+				D3B05DE3188E7F9C00613617 /* BoxCat_Games-eCommerce.aac in Resources */,
 				B737897B180762440076A88C /* Icon-Small.png in Resources */,
 				D2E65C3D1862647B007D0B1F /* CMakeLists.txt in Resources */,
 				D3B05DDF188E722A00613617 /* Crash.wav in Resources */,
