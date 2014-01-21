@@ -1,0 +1,2191 @@
+// !$*UTF8*$!
+{
+	05AAF3B710EE85B300CACA2B /* MenuTestWithBlocks */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72F91296DFE100884828 /* MenuTestWithBlocks */,
+		);
+	};
+	05CA7AEC10ED674700F12774 /* ActionsWithBlocksSample */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72E11296DFE100884828 /* ActionsWithBlocksSample */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = D3AF72DF1296DFE100884828 /* ActionManagerTest */;
+		activeSDKPreference = iphonesimulator4.1;
+		activeTarget = 501C7C6D0F91EFFF0024A296 /* SpriteTest */;
+		codeSenseManager = D3AF73761296DFEC00884828 /* Code sense */;
+		executables = (
+			D3AF72DF1296DFE100884828 /* ActionManagerTest */,
+			D3AF72E01296DFE100884828 /* ActionsTest */,
+			D3AF72E11296DFE100884828 /* ActionsWithBlocksSample */,
+			D3AF72E21296DFE100884828 /* AttachTest */,
+			D3AF72E31296DFE100884828 /* Box2dAccelTouchTest */,
+			D3AF72E41296DFE100884828 /* Box2dTestBed */,
+			D3AF72E51296DFE100884828 /* ChipmunkAccelTouchTest */,
+			D3AF72E61296DFE100884828 /* ChipmunkTestBed */,
+			D3AF72E71296DFE100884828 /* ClickAndMoveTest */,
+			D3AF72E81296DFE100884828 /* CocosDenshion - Tom The Turret */,
+			D3AF72E91296DFE100884828 /* CocosDenshion - Drum Pad */,
+			D3AF72EA1296DFE100884828 /* CocosDenshion - Fade To Grey */,
+			D3AF72EB1296DFE100884828 /* CocosDenshion - FancyRat Metering */,
+			D3AF72EC1296DFE100884828 /* cocosLiveTest */,
+			D3AF72ED1296DFE100884828 /* cocosnodeTest */,
+			D3AF72EE1296DFE100884828 /* drawPrimitivesTest */,
+			D3AF72EF1296DFE100884828 /* EAGLViewTest */,
+			D3AF72F01296DFE100884828 /* EaseActionsTest */,
+			D3AF72F11296DFE100884828 /* EffectsTest */,
+			D3AF72F21296DFE100884828 /* EffectsAdvancedTest */,
+			D3AF72F31296DFE100884828 /* FontTest */,
+			D3AF72F41296DFE100884828 /* IntervalTest */,
+			D3AF72F51296DFE100884828 /* HiResTest */,
+			D3AF72F61296DFE100884828 /* LabelTest */,
+			D3AF72F71296DFE100884828 /* LayerTest */,
+			D3AF72F81296DFE100884828 /* MenuTest */,
+			D3AF72F91296DFE100884828 /* MenuTestWithBlocks */,
+			D3AF72FA1296DFE100884828 /* MotionStreakTest */,
+			D3AF72FB1296DFE100884828 /* ParallaxTest */,
+			D3AF72FC1296DFE100884828 /* ParticleTest */,
+			D3AF72FD1296DFE100884828 /* PASoundEngineTest (experimental) */,
+			D3AF72FE1296DFE100884828 /* ProgressActionsTest */,
+			D3AF72FF1296DFE100884828 /* RenderTextureTest */,
+			D3AF73001296DFE100884828 /* RotateWorldTest */,
+			D3AF73011296DFE100884828 /* SceneTest */,
+			D3AF73021296DFE100884828 /* SchedulerTest */,
+			D3AF73031296DFE100884828 /* SpriteTest */,
+			D3AF73041296DFE100884828 /* Texture2dTest */,
+			D3AF73051296DFE100884828 /* TileMapTest */,
+			D3AF73061296DFE100884828 /* TouchesTest */,
+			D3AF73071296DFE100884828 /* TransitionsTest */,
+			D3AF73081296DFE100884828 /* ZwoptexTest */,
+			D3AF73091296DFE100884828 /* HelloWorldSample */,
+			D3AF730A1296DFE100884828 /* HelloActionsSample */,
+			D3AF730B1296DFE100884828 /* HelloEventsSample */,
+			D3AF730C1296DFE100884828 /* Bug350 */,
+			D3AF730D1296DFE100884828 /* Bug422 */,
+			D3AF730E1296DFE100884828 /* Bug458 */,
+			D3AF730F1296DFE100884828 /* Bug624 */,
+			D3AF73101296DFE100884828 /* Bug886 */,
+			D3AF73111296DFE100884828 /* Bug899 */,
+			D3AF73121296DFE100884828 /* Bug914 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					906,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 312222980;
+			PBXWorkspaceStateSaveDate = 312222980;
+		};
+		perUserProjectItems = {
+			D3AF73881296E28600884828 /* PBXTextBookmark */ = D3AF73881296E28600884828 /* PBXTextBookmark */;
+			D3AF73891296E28600884828 /* PBXTextBookmark */ = D3AF73891296E28600884828 /* PBXTextBookmark */;
+			D3AF738A1296E28600884828 /* PBXTextBookmark */ = D3AF738A1296E28600884828 /* PBXTextBookmark */;
+			D3AF739A1296E4D400884828 /* PBXTextBookmark */ = D3AF739A1296E4D400884828 /* PBXTextBookmark */;
+			D3AF739B1296E4D400884828 /* PBXTextBookmark */ = D3AF739B1296E4D400884828 /* PBXTextBookmark */;
+			D3AF73D21296E78A00884828 /* PBXTextBookmark */ = D3AF73D21296E78A00884828 /* PBXTextBookmark */;
+			D3AF73D31296E78A00884828 /* PBXTextBookmark */ = D3AF73D31296E78A00884828 /* PBXTextBookmark */;
+			D3AF73D41296E78A00884828 /* PBXTextBookmark */ = D3AF73D41296E78A00884828 /* PBXTextBookmark */;
+			D3AF73D51296E78A00884828 /* PBXTextBookmark */ = D3AF73D51296E78A00884828 /* PBXTextBookmark */;
+			D3AF73D61296E78A00884828 /* PBXTextBookmark */ = D3AF73D61296E78A00884828 /* PBXTextBookmark */;
+			D3AF73D71296E78A00884828 /* PBXTextBookmark */ = D3AF73D71296E78A00884828 /* PBXTextBookmark */;
+			D3AF73DB1296E78A00884828 /* PBXTextBookmark */ = D3AF73DB1296E78A00884828 /* PBXTextBookmark */;
+			D3AF73DC1296E78A00884828 /* PBXTextBookmark */ = D3AF73DC1296E78A00884828 /* PBXTextBookmark */;
+			D3AF73DD1296E78A00884828 /* PBXTextBookmark */ = D3AF73DD1296E78A00884828 /* PBXTextBookmark */;
+			D3AF73F81296E81400884828 /* PBXTextBookmark */ = D3AF73F81296E81400884828 /* PBXTextBookmark */;
+			D3AF73F91296E81400884828 /* PBXTextBookmark */ = D3AF73F91296E81400884828 /* PBXTextBookmark */;
+			D3F15441129A0D3400F2B0D2 /* PBXTextBookmark */ = D3F15441129A0D3400F2B0D2 /* PBXTextBookmark */;
+			D3F15775129C250F00F2B0D2 /* PBXTextBookmark */ = D3F15775129C250F00F2B0D2 /* PBXTextBookmark */;
+		};
+		sourceControlManager = D3AF73751296DFEC00884828 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	495E73F6104B74E20012BB52 /* RenderTextureTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72FF1296DFE100884828 /* RenderTextureTest */,
+		);
+	};
+	50010EBA103B3DB80059EC2E /* Box2dTestBed */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72E41296DFE100884828 /* Box2dTestBed */,
+		);
+	};
+	5012DD180FE2994300D6DDD1 /* TouchesTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF73061296DFE100884828 /* TouchesTest */,
+		);
+	};
+	501504CD11330E1700A9CA65 /* ProgressActionsTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72FE1296DFE100884828 /* ProgressActionsTest */,
+		);
+	};
+	5018F24C0DFDEAC400C013A5 /* cocos2d */ = {
+		activeExec = 0;
+	};
+	501945550F964C620059CE7C /* drawPrimitivesTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72EE1296DFE100884828 /* drawPrimitivesTest */,
+		);
+	};
+	501C7C6D0F91EFFF0024A296 /* SpriteTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF73031296DFE100884828 /* SpriteTest */,
+		);
+	};
+	501C7CA60F91F1B20024A296 /* SpriteTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1184, 2340}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2608, 760}";
+		};
+	};
+	501C7CA70F91F1B20024A296 /* SpriteTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1099, 36750}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1438, 1006}";
+		};
+	};
+	502BF54411E39CC30030C477 /* Bug914 */ = {
+		activeExec = 0;
+		executables = (
+			D3AF73121296DFE100884828 /* Bug914 */,
+		);
+	};
+	502C65ED0DFEF3DD00E4107D /* cocos2d-documentation */ = {
+		activeExec = 0;
+	};
+	502C66170DFEFCCA00E4107D /* RotateWorldTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF73001296DFE100884828 /* RotateWorldTest */,
+		);
+	};
+	503164CC10277665003ACFE7 /* libpng */ = {
+		activeExec = 0;
+	};
+	503862D911007181005D2C92 /* CCConfiguration.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {671, 1910}}";
+			sepNavSelRange = "{3638, 60}";
+			sepNavVisRange = "{2672, 1654}";
+		};
+	};
+	503F5C96101FE930002A37E5 /* TileMapTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF73051296DFE100884828 /* TileMapTest */,
+		);
+	};
+	503F5CCF101FE9A9002A37E5 /* TileMapTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1099, 15220}}";
+			sepNavSelRange = "{30621, 0}";
+			sepNavVisRange = "{30385, 185}";
+		};
+	};
+	503F5CD0101FE9A9002A37E5 /* TileMapTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1099, 1320}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 684}";
+		};
+	};
+	5042256F0FC0B39C00B992F7 /* box2d */ = {
+		activeExec = 0;
+	};
+	504226120FC0B5D500B992F7 /* Box2dAccelTouchTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72E31296DFE100884828 /* Box2dAccelTouchTest */,
+		);
+	};
+	50479999100F6A4200D1C71A /* LayerTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72F71296DFE100884828 /* LayerTest */,
+		);
+	};
+	5048287F0F45AED700A30CEF /* AttachTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72E21296DFE100884828 /* AttachTest */,
+		);
+	};
+	504CC30C1035BDE90096894C /* ActionManagerTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72DF1296DFE100884828 /* ActionManagerTest */,
+		);
+	};
+	504E17DB11C4C7E100E19835 /* EAGLViewTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72EF1296DFE100884828 /* EAGLViewTest */,
+		);
+	};
+	505224F811B3D4700061670F /* CocosDenshion - Tom The Turret */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72E81296DFE100884828 /* CocosDenshion - Tom The Turret */,
+		);
+	};
+	5052289011B3DBB90061670F /* CocosDenshion - Drum Pad */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72E91296DFE100884828 /* CocosDenshion - Drum Pad */,
+		);
+	};
+	5052290E11B3DCD80061670F /* CocosDenshion - Fade To Grey */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72EA1296DFE100884828 /* CocosDenshion - Fade To Grey */,
+		);
+	};
+	5052294011B3DCE90061670F /* CocosDenshion - FancyRat Metering */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72EB1296DFE100884828 /* CocosDenshion - FancyRat Metering */,
+		);
+	};
+	505461DE10616AE100AB7C52 /* FontLabel */ = {
+		activeExec = 0;
+	};
+	505B62AB0F2E6A0F001B4104 /* Texture2dTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF73041296DFE100884828 /* Texture2dTest */,
+		);
+	};
+	505B63780F2F4210001B4104 /* EaseActionsTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72F01296DFE100884828 /* EaseActionsTest */,
+		);
+	};
+	506143F10E589A2E003CCDB7 /* cocosnodeTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72ED1296DFE100884828 /* cocosnodeTest */,
+		);
+	};
+	50637A160E95397A000C9182 /* CCTextureAtlas.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1099, 3240}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1626}";
+		};
+	};
+	506881F40E95761200F943E5 /* LabelTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72F61296DFE100884828 /* LabelTest */,
+		);
+	};
+	506C77CB0E01520900B48100 /* ClickAndMoveTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72E71296DFE100884828 /* ClickAndMoveTest */,
+		);
+	};
+	506C79F20E01C73A00B48100 /* MenuTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72F81296DFE100884828 /* MenuTest */,
+		);
+	};
+	506C7FF70E041C9300B48100 /* SceneTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF73011296DFE100884828 /* SceneTest */,
+		);
+	};
+	5078B5170E3E43540004233A /* IntervalTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72F41296DFE100884828 /* IntervalTest */,
+		);
+	};
+	507C0EE611D609290075E747 /* Bug899 */ = {
+		activeExec = 0;
+		executables = (
+			D3AF73111296DFE100884828 /* Bug899 */,
+		);
+	};
+	507FF8CE116D16F600B6FAB2 /* Bug350 */ = {
+		activeExec = 0;
+		executables = (
+			D3AF730C1296DFE100884828 /* Bug350 */,
+		);
+	};
+	508CA7AD1193270F003AC397 /* SchedulerTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF73021296DFE100884828 /* SchedulerTest */,
+		);
+	};
+	509807071175041800EA7266 /* build all tests */ = {
+		activeExec = 0;
+	};
+	509A79950F6188420032F449 /* CCSprite.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1184, 3610}}";
+			sepNavSelRange = "{4925, 0}";
+			sepNavVisRange = "{1364, 2366}";
+		};
+	};
+	509A79960F6188420032F449 /* CCSprite.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1184, 10260}}";
+			sepNavSelRange = "{5194, 0}";
+			sepNavVisRange = "{4088, 1440}";
+		};
+	};
+	509A79990F6188500032F449 /* CCSpriteSheet.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1184, 646}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2558}";
+		};
+	};
+	509A799A0F6188500032F449 /* CCSpriteSheet.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1184, 646}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1376}";
+		};
+	};
+	509B39DE0F31020900F2FB95 /* TouchJSON */ = {
+		activeExec = 0;
+	};
+	509B3A0C0F31024E00F2FB95 /* cocosLive */ = {
+		activeExec = 0;
+	};
+	509B3A270F3102FD00F2FB95 /* cocosLiveTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72EC1296DFE100884828 /* cocosLiveTest */,
+		);
+	};
+	50A24E190F377FA1007CAEB0 /* EffectsTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72F11296DFE100884828 /* EffectsTest */,
+		);
+	};
+	50A783990F3AFCE500104C45 /* MotionStreakTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72FA1296DFE100884828 /* MotionStreakTest */,
+		);
+	};
+	50B2C4D00E100AEA00AE9530 /* Chipmunk */ = {
+		activeExec = 0;
+	};
+	50B2C5CE0E100EF000AE9530 /* ChipmunkAccelTouchTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72E51296DFE100884828 /* ChipmunkAccelTouchTest */,
+		);
+	};
+	50B2CCC20E119B8E00AE9530 /* CCDrawingPrimitives.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1099, 920}}";
+			sepNavSelRange = "{2937, 118}";
+			sepNavVisRange = "{1514, 1570}";
+		};
+	};
+	50B2CE450E129FD900AE9530 /* ChipmunkTestBed */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72E61296DFE100884828 /* ChipmunkTestBed */,
+		);
+	};
+	50C1953E0EE4B57E00829067 /* ParallaxTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72FB1296DFE100884828 /* ParallaxTest */,
+		);
+	};
+	50C938C60E0A9DBB00517B01 /* TransitionsTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF73071296DFE100884828 /* TransitionsTest */,
+		);
+	};
+	50C93A930E0BF6E000517B01 /* ActionsTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72E01296DFE100884828 /* ActionsTest */,
+		);
+	};
+	50CB2FC91004C8B100B7A750 /* CocosDenshion */ = {
+		activeExec = 0;
+	};
+	50CBA46311CBD6FB007B009D /* Bug886 */ = {
+		activeExec = 0;
+		executables = (
+			D3AF73101296DFE100884828 /* Bug886 */,
+		);
+	};
+	50D0E0480FF9232E00098927 /* HelloActionsSample */ = {
+		activeExec = 0;
+		executables = (
+			D3AF730A1296DFE100884828 /* HelloActionsSample */,
+		);
+	};
+	50D0E0C70FF930BA00098927 /* HelloEventsSample */ = {
+		activeExec = 0;
+		executables = (
+			D3AF730B1296DFE100884828 /* HelloEventsSample */,
+		);
+	};
+	50D56FA60F3FABEC007CD6B9 /* EffectsAdvancedTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72F21296DFE100884828 /* EffectsAdvancedTest */,
+		);
+	};
+	50DB1BB10E1C1E5900A89DFF /* ParticleTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72FC1296DFE100884828 /* ParticleTest */,
+		);
+	};
+	50DFC2870FF627B6007E7827 /* HelloWorldSample */ = {
+		activeExec = 0;
+		executables = (
+			D3AF73091296DFE100884828 /* HelloWorldSample */,
+		);
+	};
+	50E77CEE11D4C925009CA2C2 /* HiResTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72F51296DFE100884828 /* HiResTest */,
+		);
+	};
+	8E6CBEEE0F7A758000D47B3A /* vorbis */ = {
+		activeExec = 0;
+	};
+	8EDF3EA90F6BDA0000F54643 /* PASoundEngineTest (experimental) */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72FD1296DFE100884828 /* PASoundEngineTest (experimental) */,
+		);
+	};
+	D3AF72DF1296DFE100884828 /* ActionManagerTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ActionManagerTest;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72E01296DFE100884828 /* ActionsTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ActionsTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72E11296DFE100884828 /* ActionsWithBlocksSample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ActionsWithBlocksSample;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72E21296DFE100884828 /* AttachTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = AttachTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72E31296DFE100884828 /* Box2dAccelTouchTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Box2dAccelTouchTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72E41296DFE100884828 /* Box2dTestBed */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Box2dTestBed;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72E51296DFE100884828 /* ChipmunkAccelTouchTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ChipmunkAccelTouchTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72E61296DFE100884828 /* ChipmunkTestBed */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ChipmunkTestBed;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72E71296DFE100884828 /* ClickAndMoveTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ClickAndMoveTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72E81296DFE100884828 /* CocosDenshion - Tom The Turret */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "CocosDenshion - Tom The Turret";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72E91296DFE100884828 /* CocosDenshion - Drum Pad */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "CocosDenshion - Drum Pad";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72EA1296DFE100884828 /* CocosDenshion - Fade To Grey */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "CocosDenshion - Fade To Grey";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72EB1296DFE100884828 /* CocosDenshion - FancyRat Metering */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "CocosDenshion - FancyRat Metering";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72EC1296DFE100884828 /* cocosLiveTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = cocosLiveTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72ED1296DFE100884828 /* cocosnodeTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = cocosnodeTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72EE1296DFE100884828 /* drawPrimitivesTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = drawPrimitivesTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72EF1296DFE100884828 /* EAGLViewTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = EAGLViewTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72F01296DFE100884828 /* EaseActionsTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = EaseActionsTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72F11296DFE100884828 /* EffectsTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = EffectsTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72F21296DFE100884828 /* EffectsAdvancedTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = EffectsAdvancedTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72F31296DFE100884828 /* FontTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FontTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72F41296DFE100884828 /* IntervalTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = IntervalTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72F51296DFE100884828 /* HiResTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HiResTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72F61296DFE100884828 /* LabelTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = LabelTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72F71296DFE100884828 /* LayerTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = LayerTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72F81296DFE100884828 /* MenuTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MenuTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72F91296DFE100884828 /* MenuTestWithBlocks */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MenuTestWithBlocks;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72FA1296DFE100884828 /* MotionStreakTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MotionStreakTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72FB1296DFE100884828 /* ParallaxTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ParallaxTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72FC1296DFE100884828 /* ParticleTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ParticleTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72FD1296DFE100884828 /* PASoundEngineTest (experimental) */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "PASoundEngineTest (experimental)";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72FE1296DFE100884828 /* ProgressActionsTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ProgressActionsTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF72FF1296DFE100884828 /* RenderTextureTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = RenderTextureTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF73001296DFE100884828 /* RotateWorldTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = RotateWorldTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF73011296DFE100884828 /* SceneTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SceneTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF73021296DFE100884828 /* SchedulerTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SchedulerTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF73031296DFE100884828 /* SpriteTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SpriteTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF73041296DFE100884828 /* Texture2dTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Texture2dTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF73051296DFE100884828 /* TileMapTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TileMapTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF73061296DFE100884828 /* TouchesTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TouchesTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF73071296DFE100884828 /* TransitionsTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TransitionsTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF73081296DFE100884828 /* ZwoptexTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ZwoptexTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF73091296DFE100884828 /* HelloWorldSample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HelloWorldSample;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF730A1296DFE100884828 /* HelloActionsSample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HelloActionsSample;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF730B1296DFE100884828 /* HelloEventsSample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HelloEventsSample;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF730C1296DFE100884828 /* Bug350 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Bug350;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF730D1296DFE100884828 /* Bug422 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Bug422;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF730E1296DFE100884828 /* Bug458 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Bug458;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF730F1296DFE100884828 /* Bug624 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Bug624;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF73101296DFE100884828 /* Bug886 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Bug886;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF73111296DFE100884828 /* Bug899 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Bug899;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF73121296DFE100884828 /* Bug914 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Bug914;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3AF73751296DFEC00884828 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	D3AF73761296DFEC00884828 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D3AF73881296E28600884828 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 509A799A0F6188500032F449 /* CCSpriteSheet.m */;
+		name = "CCSpriteSheet.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1376;
+		vrLoc = 0;
+	};
+	D3AF73891296E28600884828 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 509A79990F6188500032F449 /* CCSpriteSheet.h */;
+		name = "CCSpriteSheet.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2558;
+		vrLoc = 0;
+	};
+	D3AF738A1296E28600884828 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0C3655911F0AE9B001C08F9 /* CCSpriteBatchNode.h */;
+		name = "CCSpriteBatchNode.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2771;
+		vrLoc = 0;
+	};
+	D3AF739A1296E4D400884828 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0C3655A11F0AE9B001C08F9 /* CCSpriteBatchNode.m */;
+		name = "CCSpriteBatchNode.m: 274";
+		rLen = 0;
+		rLoc = 7066;
+		rType = 0;
+		vrLen = 1509;
+		vrLoc = 6456;
+	};
+	D3AF739B1296E4D400884828 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 509A79950F6188420032F449 /* CCSprite.h */;
+		name = "CCSprite.h: 137";
+		rLen = 0;
+		rLoc = 4925;
+		rType = 0;
+		vrLen = 2366;
+		vrLoc = 1364;
+	};
+	D3AF73D21296E78A00884828 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 509A79960F6188420032F449 /* CCSprite.m */;
+		name = "CCSprite.m: 181";
+		rLen = 0;
+		rLoc = 5194;
+		rType = 0;
+		vrLen = 1440;
+		vrLoc = 4088;
+	};
+	D3AF73D31296E78A00884828 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 501C7CA60F91F1B20024A296 /* SpriteTest.h */;
+		name = "SpriteTest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 760;
+		vrLoc = 2608;
+	};
+	D3AF73D41296E78A00884828 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 501C7CA70F91F1B20024A296 /* SpriteTest.m */;
+		name = "SpriteTest.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1006;
+		vrLoc = 1438;
+	};
+	D3AF73D51296E78A00884828 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA90D87B1059A54D0039F26A /* FontTest.h */;
+		name = "FontTest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 146;
+		vrLoc = 0;
+	};
+	D3AF73D61296E78A00884828 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA90D87C1059A54D0039F26A /* FontTest.m */;
+		name = "FontTest.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1318;
+		vrLoc = 454;
+	};
+	D3AF73D71296E78A00884828 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3AF73D81296E78A00884828 /* UIApplication.h */;
+		name = "UIApplication.h: 187";
+		rLen = 115;
+		rLoc = 8604;
+		rType = 0;
+		vrLen = 2889;
+		vrLoc = 7322;
+	};
+	D3AF73D81296E78A00884828 /* UIApplication.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIApplication.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h;
+		sourceTree = "<absolute>";
+	};
+	D3AF73DB1296E78A00884828 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 50B2CCC20E119B8E00AE9530 /* CCDrawingPrimitives.h */;
+		name = "CCDrawingPrimitives.h: 85";
+		rLen = 118;
+		rLoc = 2937;
+		rType = 0;
+		vrLen = 1570;
+		vrLoc = 1514;
+	};
+	D3AF73DC1296E78A00884828 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 50637A160E95397A000C9182 /* CCTextureAtlas.m */;
+		name = "CCTextureAtlas.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1626;
+		vrLoc = 0;
+	};
+	D3AF73DD1296E78A00884828 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0EAD19C121F4D7300B0C81C /* CCGL.h */;
+		name = "CCGL.h: 31";
+		rLen = 31;
+		rLoc = 1253;
+		rType = 0;
+		vrLen = 1491;
+		vrLoc = 847;
+	};
+	D3AF73F81296E81400884828 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 503862D911007181005D2C92 /* CCConfiguration.m */;
+		name = "CCConfiguration.m: 112";
+		rLen = 60;
+		rLoc = 3638;
+		rType = 0;
+		vrLen = 1656;
+		vrLoc = 2670;
+	};
+	D3AF73F91296E81400884828 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 503F5CD0101FE9A9002A37E5 /* TileMapTest.h */;
+		name = "TileMapTest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 684;
+		vrLoc = 0;
+	};
+	D3F15441129A0D3400F2B0D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3F15442129A0D3400F2B0D2 /* CGPDFContext.h */;
+		name = "CGPDFContext.h: 60";
+		rLen = 71;
+		rLoc = 2459;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 2011;
+	};
+	D3F15442129A0D3400F2B0D2 /* CGPDFContext.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGPDFContext.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFContext.h;
+		sourceTree = "<absolute>";
+	};
+	D3F15775129C250F00F2B0D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3F15776129C250F00F2B0D2 /* CGPDFContext.h */;
+		name = "CGPDFContext.h: 60";
+		rLen = 71;
+		rLoc = 2459;
+		rType = 0;
+		vrLen = 823;
+		vrLoc = 2011;
+	};
+	D3F15776129C250F00F2B0D2 /* CGPDFContext.h */ = {
+		isa = PBXFileReference;
+		name = CGPDFContext.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFContext.h;
+		sourceTree = "<absolute>";
+	};
+	DA5F0EC10FFE96D400C7C82E /* Bug422 */ = {
+		activeExec = 0;
+		executables = (
+			D3AF730D1296DFE100884828 /* Bug422 */,
+		);
+	};
+	DA90D87B1059A54D0039F26A /* FontTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1099, 566}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 146}";
+		};
+	};
+	DA90D87C1059A54D0039F26A /* FontTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1099, 2140}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{454, 1318}";
+		};
+	};
+	DAABAA7D1059A42E00794EB3 /* FontTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF72F31296DFE100884828 /* FontTest */,
+		);
+	};
+	E02BC2A91270E489006E46A2 /* Bug624 */ = {
+		activeExec = 0;
+		executables = (
+			D3AF730F1296DFE100884828 /* Bug624 */,
+		);
+	};
+	E037DA1B1281C7F0003D39D7 /* Bug458 */ = {
+		activeExec = 0;
+		executables = (
+			D3AF730E1296DFE100884828 /* Bug458 */,
+		);
+	};
+	E0C3655911F0AE9B001C08F9 /* CCSpriteBatchNode.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1184, 1490}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2771}";
+		};
+	};
+	E0C3655A11F0AE9B001C08F9 /* CCSpriteBatchNode.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1184, 5140}}";
+			sepNavSelRange = "{7066, 0}";
+			sepNavVisRange = "{6456, 1509}";
+		};
+	};
+	E0C5586211FE48E600B9E4CB /* ZwoptexTest */ = {
+		activeExec = 0;
+		executables = (
+			D3AF73081296DFE100884828 /* ZwoptexTest */,
+		);
+	};
+	E0EAD19C121F4D7300B0C81C /* CCGL.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1099, 850}}";
+			sepNavSelRange = "{1253, 31}";
+			sepNavVisRange = "{847, 1491}";
+		};
+	};
+}

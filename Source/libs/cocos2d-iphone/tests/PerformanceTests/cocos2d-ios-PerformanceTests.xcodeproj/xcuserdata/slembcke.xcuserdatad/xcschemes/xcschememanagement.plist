@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MemoryAllocationTest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>PerformanceTest-ChildrenNode.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>PerformanceTest-Particle.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>PerformanceTest-Sprite.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>PerformanceTest-Texture.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>cocos2d libraries.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5006BA3511BBF4DB00E488BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5030942C10447C09005F7AFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>506719FE11B956ED006C0061</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A08D158C14DD17B60036D9CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E0B0E62C11F8C3BB00414246</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
