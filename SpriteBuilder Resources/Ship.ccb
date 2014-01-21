@@ -1532,8 +1532,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
@@ -1638,7 +1636,7 @@
 				<key>type</key>
 				<integer>1</integer>
 				<key>value</key>
-				<string>0.250000</string>
+				<string>0.500000</string>
 			</dict>
 		</array>
 		<key>displayName</key>
@@ -1658,7 +1656,7 @@
 			<key>cornerRadius</key>
 			<real>31.7391357421875</real>
 			<key>density</key>
-			<real>1</real>
+			<real>0.25</real>
 			<key>dynamic</key>
 			<true/>
 			<key>elasticity</key>
@@ -1735,6 +1733,8 @@
 				</array>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>

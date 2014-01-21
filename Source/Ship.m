@@ -21,7 +21,6 @@
 	CCNode *_mainThruster;
 	id<ALSoundSource> _engineNoise;
 	
-	// Never got around to using this...
 	CCNode *_shield;
 	
 	CCNode *_gunPort1, *_gunPort2;
@@ -99,6 +98,31 @@
 	
 	CCNode *gunports[] = {_gunPort1, _gunPort2};
 	return [gunports[_currentGunPort%2] nodeToWorldTransform];
+}
+
+-(BOOL)takeDamage
+{
+	if(_shield){
+		[[OALSimpleAudio sharedInstance] playEffect:@"Shield.wav"];
+		
+		float duration = 0.25;
+		[_shield runAction:[CCActionSequence actions:
+			[CCActionSpawn actions:
+				[CCActionScaleTo actionWithDuration:duration scale:4.0],
+				[CCActionFadeOut actionWithDuration:duration],
+				nil
+			],
+			[CCActionRemove action],
+			nil
+		]];
+		
+		_shield = nil;
+		return NO;
+	} else {
+		[[OALSimpleAudio sharedInstance] playEffect:@"Crash.wav"];
+		
+		return YES;
+	}
 }
 
 @end

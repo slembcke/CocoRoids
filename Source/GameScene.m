@@ -27,6 +27,9 @@
 	Joystick *_joystick;
 	
 	NSUInteger _asteroidCount;
+	NSUInteger _destroyedCount;
+	
+	CCLabelTTF *_warningLabel, *_scoreLabel;
 }
 
 -(void)addAsteroid:(BOOL)big at:(CGPoint)position
@@ -38,28 +41,46 @@
 	[_physics addChild:rock];
 }
 
+-(void)addAsteroids
+{
+	for(int i=0; i<_asteroidCount; i++){
+		CGPoint pos = ccpAdd(_ship.position, ccpMult(CCRANDOM_ON_UNIT_CIRCLE(), 150));
+		[self addAsteroid:YES at:pos];
+	}
+}
+
 -(void)destroyAsteroid:(Asteroid *)asteroid
 {
+	// If the asteroid was marked as being big, make a few little ones in it's place.
+	if(asteroid.big){
+		CGPoint pos = asteroid.position;
+		
+		for(int i=0; i<3; i++){
+			[self addAsteroid:NO at:pos];
+		}
+	}
+	
 	[asteroid removeFromParent];
 	[_asteroids removeObject:asteroid];
-	
-	if(_asteroids.count == 0){
-		CCLabelTTF *label = [CCLabelTTF labelWithString:@"New Wave Incoming!" fontName:@"Helvetica" fontSize:30];
-		label.color = [CCColor blackColor];
-		label.positionType = CCPositionTypeNormalized;
-		label.position = ccp(0.5, 0.5);
-		[self addChild:label];
-		
-		// Reset the game after a delay
-		[self scheduleBlock:^(CCTimer *timer){
-			[[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"GameScene"]];
-		} delay:2.0];
-	}
 	
 	// Make some noise. Add a little chromatically tuned pitch bending to make it more musical.
 	int half_steps = (arc4random()%(2*4 + 1) - 4);
 	float pitch = pow(2.0f, half_steps/12.0f);
 	[[OALSimpleAudio sharedInstance] playEffect:@"Explosion.wav" volume:1.0 pitch:pitch pan:0.0 loop:NO];
+	
+	// Update the score.
+	_destroyedCount++;
+	_scoreLabel.string = [NSString stringWithFormat:@"Score: %d", _destroyedCount*100];
+	
+	// If all the asteroids are destroyed, move to the next level.
+	if(_asteroids.count == 0){
+		[_warningLabel runAction:[CCActionBlink actionWithDuration:2.0 blinks:4]];
+		
+		// Add some more asteroids after a short delay
+		[self scheduleBlock:^(CCTimer *timer){
+			[self addAsteroids];
+		} delay:2.0];
+	}
 }
 
 -(void)onEnter
@@ -76,11 +97,7 @@
 	_asteroids = [NSMutableArray array];
 	_bullets = [NSMutableArray array];
 	
-	// Add some random asteroids.
-	for(int i=0; i<_asteroidCount; i++){
-		CGPoint pos = ccpAdd(center, ccpMult(CCRANDOM_ON_UNIT_CIRCLE(), 150));
-		[self addAsteroid:YES at:pos];
-	}
+	[self addAsteroids];
 	
 	// Use the gamescene as the collision delegate.
 	// See the ccPhysicsCollision* methods below.
@@ -131,8 +148,13 @@ WrapAround(CGPoint pos, CGSize size)
 	sprite.position = bullet.position;
 	[self addChild:sprite];
 	
+	float duration = 0.15;
 	[sprite runAction:[CCActionSequence actions:
-		[CCActionFadeOut actionWithDuration:0.1],
+		[CCActionSpawn actions:
+			[CCActionFadeOut actionWithDuration:duration],
+			[CCActionScaleTo actionWithDuration:duration scale:0.25],
+			nil
+		],
 		[CCActionRemove action],
 		nil
 	]];
@@ -201,26 +223,21 @@ WrapAround(CGPoint pos, CGSize size)
 
 // "Begin" methods are only called once when objects begin to collide.
 // Note how the last two parameters "ship" and "asteroid" are the same string as the collisionType values set in those classes.
--(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair ship:(CCNode *)ship asteroid:(CCNode *)asteroid
+-(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair ship:(CCNode *)ship asteroid:(Asteroid *)asteroid
 {
-	[[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"MainScene"]];
+	if([_ship takeDamage]){
+		// Ship was destroyed. Go back to the splash screen.
+		[[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"MainScene"]];		
+	} else {
+		[self destroyAsteroid:asteroid];
+	}
 	
-	// Don't process the collision between the ship and the asteroid.
-	// It doesn't really matter since we are destroying both objects anyway.
-	return NO;
+	// Process the collision between the ship and the asteroid.
+	return YES;
 }
 
 -(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair bullet:(Bullet *)bullet asteroid:(Asteroid *)asteroid
 {
-	// If the asteroid was marked as being big, make a few little ones in it's place.
-	if(asteroid.big){
-		CGPoint pos = asteroid.position;
-		
-		for(int i=0; i<3; i++){
-			[self addAsteroid:NO at:pos];
-		}
-	}
-	
 	[self destroyBullet:bullet];
 	[self destroyAsteroid:asteroid];
 	
