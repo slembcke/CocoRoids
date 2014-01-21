@@ -29,10 +29,6 @@
 	NSUInteger _asteroidCount;
 }
 
--(void)dealloc {
-	NSLog(@"Dealloc scene");
-}
-
 -(void)addAsteroid:(BOOL)big at:(CGPoint)position
 {
 	CCNode *rock = [CCBReader load:(big ? @"BigAsteroid" : @"LittleAsteroid")];
@@ -48,7 +44,16 @@
 	[_asteroids removeObject:asteroid];
 	
 	if(_asteroids.count == 0){
-		[[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"GameScene"]];
+		CCLabelTTF *label = [CCLabelTTF labelWithString:@"New Wave Incoming!" fontName:@"Helvetica" fontSize:30];
+		label.color = [CCColor blackColor];
+		label.positionType = CCPositionTypeNormalized;
+		label.position = ccp(0.5, 0.5);
+		[self addChild:label];
+		
+		// Reset the game after a delay
+		[self scheduleBlock:^(CCTimer *timer){
+			[[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"GameScene"]];
+		} delay:2.0];
 	}
 	
 	// Make some noise. Add a little chromatically tuned pitch bending to make it more musical.
@@ -175,9 +180,9 @@ WrapAround(CGPoint pos, CGSize size)
 	[_bullets addObject:bullet];
 	
 	// Give the bullet a finite lifetime.
-//	[bullet scheduleBlock:^(CCTimer *timer){
-//		[self destroyBullet:bullet];
-//	} delay:bullet.duration];
+	[bullet scheduleBlock:^(CCTimer *timer){
+		[self destroyBullet:bullet];
+	} delay:bullet.duration];
 	
 	// Make some noise. Add a little chromatically tuned pitch bending to make it more musical.
 	int half_steps = (arc4random()%(2*4 + 1) - 4);

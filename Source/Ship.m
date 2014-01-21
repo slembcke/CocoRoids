@@ -21,6 +21,7 @@
 	CCNode *_mainThruster;
 	id<ALSoundSource> _engineNoise;
 	
+	// Never got around to using this...
 	CCNode *_shield;
 	
 	CCNode *_gunPort1, *_gunPort2;
@@ -42,6 +43,18 @@
 	body.collisionCategories = @[@"ship"];
 	// Then you list which categories its allowed to collide with.
 	body.collisionMask = @[@"asteroid"];
+	
+	// Make the thruster pulse
+	float scaleX = _mainThruster.scaleX;
+	float scaleY = _mainThruster.scaleY;
+	[_mainThruster runAction:[CCActionRepeatForever actionWithAction:[CCActionSequence actions:
+		[CCActionScaleTo actionWithDuration:0.1 scaleX:scaleX scaleY:0.5*scaleY],
+		[CCActionScaleTo actionWithDuration:0.05 scaleX:scaleX scaleY:scaleY],
+		nil
+	]]];
+	
+	// Make the shield spin
+	[_shield runAction:[CCActionRepeatForever actionWithAction:[CCActionRotateBy actionWithDuration:1.0 angle:360.0]]];
 	
 	[super onEnter];
 }
