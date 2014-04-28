@@ -13,6 +13,19 @@ I had a few goals in mind when I was making this:
 
 Note: You don't need [SpriteBuilder](http://www.spritebuilder.com) to compile and run the project, but a lot of the game is set up within the SpriteBuilder editor.
 
+Getting started with the source
+-
+First clone the source and its submodules, then open Xcode to build target 'CocoRoids'.
+
+```
+git clone git@github.com:slembcke/CocoRoids.git
+cd CocoRoids
+git submodule update --init
+cd Source/libs/cocos2d-iphone
+git submodule update --init
+cd -
+```
+
 Acknowledgements:
 -
 
