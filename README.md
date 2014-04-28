@@ -20,10 +20,7 @@ First clone the source and its submodules, then open Xcode to build target 'Coco
 ```
 git clone git@github.com:slembcke/CocoRoids.git
 cd CocoRoids
-git submodule update --init
-cd Source/libs/cocos2d-iphone
-git submodule update --init
-cd -
+git submodule update --init --recursive
 ```
 
 Acknowledgements:
