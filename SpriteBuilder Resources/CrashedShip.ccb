@@ -2,6 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>SequencerJoints</key>
+	<dict>
+		<key>hidden</key>
+		<false/>
+		<key>locked</key>
+		<false/>
+	</dict>
+	<key>UUID</key>
+	<integer>11</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -14,22 +23,34 @@
 	<string>CocosBuilder</string>
 	<key>fileVersion</key>
 	<integer>4</integer>
+	<key>gridspaceHeight</key>
+	<integer>64</integer>
+	<key>gridspaceWidth</key>
+	<integer>64</integer>
 	<key>guides</key>
+	<array/>
+	<key>joints</key>
 	<array/>
 	<key>jsControlled</key>
 	<false/>
 	<key>nodeGraph</key>
 	<dict>
+		<key>UUID</key>
+		<integer>1</integer>
 		<key>baseClass</key>
 		<string>CCNode</string>
 		<key>children</key>
 		<array>
 			<dict>
+				<key>UUID</key>
+				<integer>2</integer>
 				<key>baseClass</key>
 				<string>CCNode</string>
 				<key>children</key>
 				<array>
 					<dict>
+						<key>UUID</key>
+						<integer>3</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -41,7 +62,7 @@
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>physicsBody</key>
 						<dict>
 							<key>affectedByGravity</key>
@@ -50,6 +71,12 @@
 							<true/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string></string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -77,6 +104,27 @@
 								<array>
 									<real>0.90768098831176758</real>
 									<real>20.958566665649414</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>0.56106245517730713</real>
+										<real>-0.27846553921699524</real>
+									</array>
+									<array>
+										<real>7.4218640327453613</real>
+										<real>-0.069363929331302643</real>
+									</array>
+									<array>
+										<real>7.4237489700317383</real>
+										<real>21.210994720458984</real>
+									</array>
+									<array>
+										<real>0.90768098831176758</real>
+										<real>20.958566665649414</real>
+									</array>
 								</array>
 							</array>
 						</dict>
@@ -155,6 +203,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>4</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -166,7 +216,7 @@
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>physicsBody</key>
 						<dict>
 							<key>affectedByGravity</key>
@@ -175,6 +225,12 @@
 							<true/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string></string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -202,6 +258,27 @@
 								<array>
 									<real>9.8362760543823242</real>
 									<real>20.830465316772461</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>3.1205248832702637</real>
+										<real>20.967983245849609</real>
+									</array>
+									<array>
+										<real>3.1949341297149658</real>
+										<real>0.46469298005104065</real>
+									</array>
+									<array>
+										<real>9.8682994842529297</real>
+										<real>-0.31237524747848511</real>
+									</array>
+									<array>
+										<real>9.8362760543823242</real>
+										<real>20.830465316772461</real>
+									</array>
 								</array>
 							</array>
 						</dict>
@@ -291,6 +368,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>5</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -302,7 +381,7 @@
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>physicsBody</key>
 						<dict>
 							<key>affectedByGravity</key>
@@ -311,6 +390,12 @@
 							<true/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string></string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -338,6 +423,27 @@
 								<array>
 									<real>0.0</real>
 									<real>9.5</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>0.0</real>
+										<real>0.0</real>
+									</array>
+									<array>
+										<real>19.648900985717773</real>
+										<real>2.3926734924316406</real>
+									</array>
+									<array>
+										<real>20</real>
+										<real>9.5</real>
+									</array>
+									<array>
+										<real>0.0</real>
+										<real>9.5</real>
+									</array>
 								</array>
 							</array>
 						</dict>
@@ -427,6 +533,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>6</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -438,7 +546,7 @@
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>physicsBody</key>
 						<dict>
 							<key>affectedByGravity</key>
@@ -447,6 +555,12 @@
 							<true/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string></string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -474,6 +588,27 @@
 								<array>
 									<real>0.0</real>
 									<real>9.5</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>0.0</real>
+										<real>0.0</real>
+									</array>
+									<array>
+										<real>19.855169296264648</real>
+										<real>2.6159060001373291</real>
+									</array>
+									<array>
+										<real>20</real>
+										<real>9.5</real>
+									</array>
+									<array>
+										<real>0.0</real>
+										<real>9.5</real>
+									</array>
 								</array>
 							</array>
 						</dict>
@@ -563,6 +698,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>7</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -574,7 +711,7 @@
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>physicsBody</key>
 						<dict>
 							<key>affectedByGravity</key>
@@ -583,6 +720,12 @@
 							<true/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string></string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -606,6 +749,23 @@
 								<array>
 									<real>11.224552154541016</real>
 									<real>41.917781829833984</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>-0.35140255093574524</real>
+										<real>20.303993225097656</real>
+									</array>
+									<array>
+										<real>10.835549354553223</real>
+										<real>-0.24356822669506073</real>
+									</array>
+									<array>
+										<real>11.224552154541016</real>
+										<real>41.917781829833984</real>
+									</array>
 								</array>
 							</array>
 						</dict>
@@ -695,6 +855,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>8</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -706,7 +868,7 @@
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>physicsBody</key>
 						<dict>
 							<key>affectedByGravity</key>
@@ -715,6 +877,12 @@
 							<true/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string></string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -738,6 +906,23 @@
 								<array>
 									<real>1.8264656066894531</real>
 									<real>41.5146484375</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>1.1473535299301147</real>
+										<real>0.93945717811584473</real>
+									</array>
+									<array>
+										<real>12.836343765258789</real>
+										<real>19.594738006591797</real>
+									</array>
+									<array>
+										<real>1.8264656066894531</real>
+										<real>41.5146484375</real>
+									</array>
 								</array>
 							</array>
 						</dict>
@@ -827,6 +1012,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>9</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -838,7 +1025,7 @@
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>physicsBody</key>
 						<dict>
 							<key>affectedByGravity</key>
@@ -847,6 +1034,12 @@
 							<true/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string></string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -882,6 +1075,35 @@
 								<array>
 									<real>4.0952262878417969</real>
 									<real>27.264785766601562</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>-0.026529094204306602</real>
+										<real>19.963172912597656</real>
+									</array>
+									<array>
+										<real>5.7444930076599121</real>
+										<real>0.65515339374542236</real>
+									</array>
+									<array>
+										<real>14.34781551361084</real>
+										<real>1.001772403717041</real>
+									</array>
+									<array>
+										<real>19.877714157104492</real>
+										<real>20.257986068725586</real>
+									</array>
+									<array>
+										<real>15.703211784362793</real>
+										<real>27.918464660644531</real>
+									</array>
+									<array>
+										<real>4.0952262878417969</real>
+										<real>27.264785766601562</real>
+									</array>
 								</array>
 							</array>
 						</dict>
@@ -960,6 +1182,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>10</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -971,7 +1195,7 @@
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>physicsBody</key>
 						<dict>
 							<key>affectedByGravity</key>
@@ -980,6 +1204,12 @@
 							<true/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string></string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -1007,6 +1237,27 @@
 								<array>
 									<real>20</real>
 									<real>13</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>0.0</real>
+										<real>13</real>
+									</array>
+									<array>
+										<real>2.6381065845489502</real>
+										<real>1.4911020994186401</real>
+									</array>
+									<array>
+										<real>17.5201416015625</real>
+										<real>1.1765066385269165</real>
+									</array>
+									<array>
+										<real>20</real>
+										<real>13</real>
+									</array>
 								</array>
 							</array>
 						</dict>
@@ -1094,7 +1345,7 @@
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>properties</key>
 				<array>
 					<dict>
@@ -1174,7 +1425,7 @@
 		<key>memberVarAssignmentName</key>
 		<string></string>
 		<key>memberVarAssignmentType</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>properties</key>
 		<array>
 			<dict>
@@ -1298,5 +1549,7 @@
 	</array>
 	<key>stageBorder</key>
 	<integer>3</integer>
+	<key>stageColor</key>
+	<integer>2</integer>
 </dict>
 </plist>
